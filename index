@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeFlow - AI-Powered Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <strong class="logo">ResumeFlow</strong>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#process">How It Works</a></li>
+                <li><a href="#examples">Templates</a></li>
+                <li><a href="#testimonials">Success Stories</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="#" class="btn">Start Free</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <em class="badge">✨ AI-Powered Resume Builder</em>
+            <h1>Land Your Dream Job <br><strong class="gradient-text">With a Stunning Resume</strong></h1>
+            <p class="hero-subtitle">Create a professionally designed resume in minutes. Powered by AI to highlight your strengths and pass ATS systems. No design skills required.</p>
+            <section class="flex-flex">
+                <input class="bbb" type="text" placeholder="Enter your name">
+                <a href="#" class="btn-primary btn-large">Create Resume Free</a>
+            </section>
+            <p class="trust-text">💳 No credit card • 🔒 100% private • ⚡ Takes 5 minutes</p>
+            <hr class="s">
+
+            <section class="social-proof">
+                <p class="section-tag">TRUSTED BY PROFESSIONALS AT</p>
+                <figure class="company-logos">
+                    <p>Google</p>
+                    <p>Meta</p>
+                    <p>Apple</p>
+                    <p>Microsoft</p>
+                    <p>Amazon</p>
+                    <p>Tesla</p>
+                </figure>
+                <p class="rating">⭐⭐⭐⭐⭐ <strong>4.9/5</strong> from 12,000+ users</p>
+            </section>
+        </section>
+
+        <section class="stats-section">
+            <ul class="stats-grid">
+                <li>
+                    <strong>50K+</strong>
+                    <p>Resumes Created</p>
+                </li>
+                <li>
+                    <strong>92%</strong>
+                    <p>Interview Rate</p>
+                </li>
+                <li>
+                    <strong>4.9★</strong>
+                    <p>User Rating</p>
+                </li>
+                <li>
+                    <strong>24/7</strong>
+                    <p>AI Support</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="features" class="features-section">
+            <header class="section-header">
+                <h2>Powerful Features</h2>
+                <p>Everything you need to create a resume that stands out</p>
+            </header>
+            <ul class="features-grid">
+                <li class="feature-card">
+                    <i class="icon">🎨</i>
+                    <h3>AI Design</h3>
+                    <p>AI optimizes your resume layout for maximum impact</p>
+                </li>
+                <li class="feature-card">
+                    <i class="icon">📱</i>
+                    <h3>Mobile Friendly</h3>
+                    <p>Build and edit on any device, anytime, anywhere</p>
+                </li>
+                <li class="feature-card">
+                    <i class="icon">✨</i>
+                    <h3>20+ Templates</h3>
+                    <p>Modern, professional templates for every industry</p>
+                </li>
+                <li class="feature-card">
+                    <i class="icon">⚡</i>
+                    <h3>Instant Export</h3>
+                    <p>Download as PDF, Word, or share a link instantly</p>
+                </li>
+                <li class="feature-card">
+                    <i class="icon">🤖</i>
+                    <h3>Smart Content</h3>
+                    <p>AI suggestions to improve your resume wording</p>
+                </li>
+                <li class="feature-card">
+                    <i class="icon">🔒</i>
+                    <h3>Secure & Private</h3>
+                    <p>Your data is encrypted and never sold</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="process" class="process-section">
+            <header class="section-header">
+                <h2>How It Works</h2>
+                <p>Just 3 simple steps to your perfect resume</p>
+            </header>
+            <ol class="process-grid">
+                <li class="process-step">
+                    <strong class="step-number">1</strong>
+                    <h3>Choose Template</h3>
+                    <p>Select from 20+ professionally designed templates</p>
+                </li>
+                <li class="process-step">
+                    <strong class="step-number">2</strong>
+                    <h3>Fill Your Info</h3>
+                    <p>Add your experience, skills, and education</p>
+                </li>
+                <li class="process-step">
+                    <strong class="step-number">3</strong>
+                    <h3>Download & Apply</h3>
+                    <p>Export as PDF and start applying to jobs</p>
+                </li>
+            </ol>
+        </section>
+
+        <section id="examples" class="templates-section">
+            <header class="section-header">
+                <h2>Stunning Templates</h2>
+                <p>Each template is ATS-optimized and mobile-responsive</p>
+            </header>
+            <ul class="templates-grid">
+                <li class="template-card">
+                    <article class="template-preview">
+                        <header class="preview-header">Modern Template</header>
+                        <section class="preview-body">
+                            <h4>Sarah Johnson</h4>
+                            <p class="preview-title">Senior Product Manager</p>
+                            <ul>
+                                <li>📍 Tech Lead at Innovative Co.</li>
+                                <li>🎓 BS Computer Science</li>
+                                <li>💼 5+ years experience</li>
+                            </ul>
+                            <button class="cre">Use Template</button>
+                        </section>
+                    </article>
+                </li>
+                <li class="template-card">
+                    <article class="template-preview">
+                        <header class="preview-header creative">Creative Template</header>
+                        <section class="preview-body">
+                            <h4>Marcus Chen</h4>
+                            <p class="preview-title">Full Stack Developer</p>
+                            <ul>
+                                <li>📍 Tech Lead at Innovative Co.</li>
+                                <li>🎓 BS Computer Science</li>
+                                <li>💼 5+ years experience</li>
+                            </ul>
+                            <button class="cre">Use Template</button>
+                        </section>
+                    </article>
+                </li>
+                <li class="template-card">
+                    <article class="template-preview">
+                        <header class="preview-header minimal">Minimal Template</header>
+                        <section class="preview-body">
+                            <h4>Emily Rodriguez</h4>
+                            <p class="preview-title">UX/UI Designer</p>
+                            <ul>
+                                <li>📍 Tech Lead at Innovative Co.</li>
+                                <li>🎓 BS Computer Science</li>
+                                <li>💼 5+ years experience</li>
+                            </ul>
+                            <button class="cre">Use Template</button>
+                        </section>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <header class="section-header">
+                <h2>Success Stories</h2>
+                <p>Join 50K+ professionals who got hired</p>
+            </header>
+            <ul class="testimonials-grid">
+                <li class="testimonial-card">
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                    <blockquote>"I landed 3 job offers in one month! ResumeFlow helped me showcase my achievements clearly."</blockquote>
+                    <figure class="user-info">
+                        <abbr class="avatar" title="Jessica Martinez">Je</abbr>
+                        <figcaption>
+                            <h4 class="user-name">Jessica Martinez</h4>
+                            <p class="user-role">Marketing Manager at TechCorp</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="testimonial-card">
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                    <blockquote>"Never thought resume building could be this easy. The templates are incredibly professional."</blockquote>
+                    <figure class="user-info">
+                        <abbr class="avatar" title="Robert Kim">Ro</abbr>
+                        <figcaption>
+                            <h4 class="user-name">Robert Kim</h4>
+                            <p class="user-role">Sales Executive at CloudTech</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="testimonial-card">
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                    <blockquote>"From unemployed to my dream role in 6 weeks. The ATS optimization actually works!"</blockquote>
+                    <figure class="user-info">
+                        <abbr class="avatar" title="Aisha Patel">Ai</abbr>
+                        <figcaption>
+                            <h4 class="user-name">Aisha Patel</h4>
+                            <p class="user-role">Data Scientist at AI Innovations</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li class="testimonial-card">
+                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                    <blockquote>"Switched careers successfully with the help of ResumeFlow. Worth every minute!"</blockquote>
+                    <figure class="user-info">
+                        <abbr class="avatar" title="David Chen">Da</abbr>
+                        <figcaption>
+                            <h4 class="user-name">David Chen</h4>
+                            <p class="user-role">Senior Engineer at ByteScale</p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class="final-cta">
+            <h2>Ready to Get Hired?</h2>
+            <p>Stop losing job opportunities. Create your perfect resume in minutes and start your dream career today.</p>
+            <a class="btn-primary btn-large">Create Resume Free</a>
+            <button class="demo-btn">Watch Demo</button>
+        </section>
+
+      <section id="faq" class="faq-section">
+            <header class="section-header">
+                <h2>Questions?</h2>
+                <p>Everything you need to know</p>
+            </header>
+            <dl class="faq-grid">
+                <details class="faq-item">
+                    <summary><dt>Is ResumeFLow really free?</dt></summary>
+                    <section class="faq-content">
+                        <dd>Yes! Completely free to create, edit, and download unlimited resumes. No hidden charges, no premium tiers.</dd>
+                    </section>
+                </details>
+                <details class="faq-item">
+                    <summary><dt>Are the templates ATS-Friendly?</dt></summary>
+                    <section class="faq-content">
+                        <dd>Absolutely! All templates are optimized to pass through Applicant Tracking Systems. Your resume will get noticed.</dd>
+                    </section>
+                </details>
+                <details class="faq-item">
+                    <summary><dt>Can I use my resume on Linkedin?</dt></summary>
+                    <section class="faq-content">
+                        <dd>Yes! You can download as PDF or share directly. Compatible with all job platforms and LinkedIn.</dd>
+                    </section>
+                </details>
+                <details class="faq-item">
+                    <summary><dt>Is my data secure?</dt></summary>
+                    <section class="faq-content">
+                        <dd>Your data is encrypted, never shared, and deleted anytime. We take privacy seriously.</dd>
+                    </section>
+                </details>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+    <section class="footer-grid">
+        
+        <aside class="footer-brand">
+            <h3>ResumeFlow</h3>
+            <p>Build your perfect resume in minutes</p>
+        </aside>
+
+        <nav class="footer-links-col">
+            <h4>Product</h4>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Templates</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </nav>
+
+        <nav class="footer-links-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </nav>
+
+        <nav class="footer-links-col">
+            <h4>Resources</h4>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">API</a></li>
+            </ul>
+        </nav>
+
+        <nav class="footer-links-col">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </section>
+
+    <p class="footer-bottom">&copy; 2026 ResumeFlow. All rights reserved.</p>
+</footer>
+</body>
+</html>
