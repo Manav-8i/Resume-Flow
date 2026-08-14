@@ -1,0 +1,11 @@
+const express=require('express');
+const path=require('path');
+require('dotenv').config();
+const app=express();
+app.use(express.json());
+app.use(express.static(path.join(__dirname,'../frontend')));
+app.use('/api/auth',require('./routes/auth'));
+app.use('/api/resumes',require('./routes/resumes'));
+app.get('/api/health',(req,res)=>res.json({status:'ok',app:'ResumeFlow'}));
+const PORT=process.env.PORT||3000;
+app.listen(PORT,()=>console.log(`ResumeFlow: http://localhost:${PORT}`));
